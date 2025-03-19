@@ -4,11 +4,10 @@ body {
   padding: 0;
 
   font-family: "Times New Roman", Times, serif;
-  background: rgb(255, 0, 0);
+
   background: linear-gradient(
-    90deg,
-    rgba(255, 0, 0, 1) 10%,
-    rgba(255, 255, 255, 1) 90%
+    to left,
+    rgb(232, 55, 55) 0,
+    rgb(255, 255, 255) 100%
   );
-  background-repeat: initial;
 }
