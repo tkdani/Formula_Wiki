@@ -6,15 +6,17 @@ class CardList extends Component {
     const { drivers } = this.props;
     return drivers.map((driver) => {
       return (
-        <div key={driver.driver_number} className="driverCards">
-          <h2 className="driverNames">
-            {driver.first_name} {driver.last_name}
-          </h2>
+        <div key={driver.number} className="driverCards">
+          <h2 className="driverNames">{driver.name}</h2>
+          <p className="driverNat">{driver.nat}</p>
           <div className="driverDetails">
-            <img className="driverPic" src={driver.headshot_url} />
-            <p className="teamName">Team: {driver.team_name}</p>
-            <p className="driverNumber">Number: {driver.driver_number}</p>
-            <p className="driverNat">Nationality: {driver.country_code}</p>
+            <img
+              className="driverPic"
+              alt={driver.name}
+              src={driver.driverImg}
+            />
+            <p className="teamName">{driver.team}</p>
+            <p className="driverNumber">{driver.number}</p>
           </div>
         </div>
       );

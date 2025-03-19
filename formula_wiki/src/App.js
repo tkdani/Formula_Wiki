@@ -2,6 +2,7 @@ import { Component } from "react";
 import "./App.css";
 import SearchBar from "./components/search-bar/search-bar.component";
 import CardList from "./components/card-list/card-list.component";
+import driversData from "./drivers.json";
 
 class App extends Component {
   constructor() {
@@ -13,13 +14,9 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch("https://api.openf1.org/v1/drivers?session_key=latest")
-      .then((response) => response.json())
-      .then((jsonContent) =>
-        this.setState(() => {
-          return { drivers: jsonContent };
-        })
-      );
+    this.setState(() => {
+      return { drivers: driversData };
+    });
   }
 
   onChangeHandler = (event) => {
@@ -34,7 +31,7 @@ class App extends Component {
     const { onChangeHandler } = this;
 
     const filteredDrivers = drivers.filter((driver) => {
-      return driver.full_name.toLocaleLowerCase().includes(searchInput);
+      return driver.name.toLocaleLowerCase().includes(searchInput);
     });
 
     return (

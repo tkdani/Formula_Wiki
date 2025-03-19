@@ -2,4 +2,13 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
+
+  font-family: "Times New Roman", Times, serif;
+  background: rgb(255, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 1) 10%,
+    rgba(255, 255, 255, 1) 90%
+  );
+  background-repeat: initial;
 }
