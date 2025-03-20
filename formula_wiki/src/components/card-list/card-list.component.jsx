@@ -9,16 +9,24 @@ class CardList extends Component {
         {drivers.map((driver) => {
           return (
             <div className="card-container">
-              <h2 className="driverNames">{driver.name}</h2>
-              <p className="driverNat">{driver.nat}</p>
-              <div className="driverDetails">
+              <div className="driver-name-container">
+                <h2 className="driver-name">{driver.name}</h2>
+                <div className="driver-nat-container">
+                  <p className="driver-nat-name">{driver.nat}</p>
+                  <img src={driver.natImg} className="driver-nat-img" />
+                </div>
+              </div>
+
+              <div className="driver-detail-container">
                 <img
-                  className="driverPic"
+                  className="driver-pic"
                   alt={driver.name}
                   src={driver.driverImg}
                 />
-                <p className="teamName">{driver.team}</p>
-                <p className="driverNumber">{driver.number}</p>
+                <div className="driver-detail">
+                  <p className="team-name">{driver.team}</p>
+                  <p className="driver-number">{driver.number}</p>
+                </div>
               </div>
             </div>
           );

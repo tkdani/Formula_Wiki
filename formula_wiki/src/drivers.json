@@ -4,6 +4,7 @@
     "name": "Lando Norris",
     "driverImg": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LANNOR01_Lando_Norris/lannor01.png",
     "nat": "GBR",
+    "natImg": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/United%20Kingdom.jpg",
     "team": "McLaren",
     "team_colour": "3671C6"
   },
@@ -11,7 +12,8 @@
     "number": 81,
     "name": "Oscar Piastri",
     "driverImg": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/O/OSCPIA01_Oscar_Piastri/oscpia01.png",
-    "nat": "GBR",
+    "nat": "AUS",
+    "natImg": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Australia.jpg",
     "team": "McLaren",
     "team_colour": "3671C6"
   },
@@ -20,6 +22,7 @@
     "name": "Max Verstappen",
     "driverImg": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/M/MAXVER01_Max_Verstappen/maxver01.png",
     "nat": "NED",
+    "natImg": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Netherlands.jpg",
     "team": "Red Bull Racing",
     "team_colour": "3671C6"
   },
@@ -28,6 +31,7 @@
     "name": "Liam Lawson",
     "driverImg": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LIALAW01_Liam_Lawson/lialaw01.png",
     "nat": "AUS",
+    "natImg": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Australia.jpg",
     "team": "Red Bull Racing",
     "team_colour": "3671C6"
   },
@@ -36,6 +40,7 @@
     "name": "Charles Leclerc",
     "driverImg": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/C/CHALEC01_Charles_Leclerc/chalec01.png",
     "nat": "MON",
+    "natImg": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Monaco.jpg",
     "team": "Ferrari",
     "team_colour": "F91536"
   },
@@ -44,6 +49,7 @@
     "name": "Lewis Hamilton",
     "driverImg": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LEWHAM01_Lewis_Hamilton/lewham01.png",
     "nat": "GBR",
+    "natImg": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/United%20Kingdom.jpg",
     "team": "Ferrari",
     "team_colour": "F91536"
   },
@@ -52,6 +58,7 @@
     "name": "George Russel",
     "driverImg": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/G/GEORUS01_George_Russell/georus01.png",
     "nat": "GBR",
+    "natImg": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/United%20Kingdom.jpg",
     "team": "Mercedes",
     "team_colour": "27F4D2"
   },
@@ -60,6 +67,7 @@
     "name": "Kimi Antonelli",
     "driverImg": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/A/ANDANT01_Andrea%20Kimi_Antonelli/andant01.png",
     "nat": "ITA",
+    "natImg": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Italy.jpg",
     "team": "Mercedes",
     "team_colour": "27F4D2"
   },
@@ -68,6 +76,7 @@
     "name": "Fernando Alonso",
     "driverImg": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/F/FERALO01_Fernando_Alonso/feralo01.png",
     "nat": "ESP",
+    "natImg": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Spain.jpg",
     "team": "Aston Martin",
     "team_colour": "229971"
   },
@@ -76,6 +85,7 @@
     "name": "Lance Stroll",
     "driverImg": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LANSTR01_Lance_Stroll/lanstr01.png",
     "nat": "CAN",
+    "natImg": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Canada.jpg",
     "team": "Aston Martin",
     "team_colour": "229971"
   },
@@ -84,6 +94,7 @@
     "name": "Carlos Sainz",
     "driverImg": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/C/CARSAI01_Carlos_Sainz/carsai01.png",
     "nat": "ESP",
+    "natImg": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Spain.jpg",
     "team": "Williams",
     "team_colour": "64C4FF"
   },
@@ -92,6 +103,7 @@
     "name": "Alex Albon",
     "driverImg": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/A/ALEALB01_Alexander_Albon/alealb01.png",
     "nat": "THA",
+    "natImg": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Thailand.jpg",
     "team": "Williams",
     "team_colour": "64C4FF"
   },
@@ -100,6 +112,7 @@
     "name": "Yuki Tsunoda",
     "driverImg": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/Y/YUKTSU01_Yuki_Tsunoda/yuktsu01.png",
     "nat": "JPN",
+    "natImg": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Japan.jpg",
     "team": "Racing Bulls",
     "team_colour": "6692FF"
   },
@@ -108,6 +121,7 @@
     "name": "Isack Hadjar",
     "driverImg": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/I/ISAHAD01_Isack_Hadjar/isahad01.png",
     "nat": "FRA",
+    "natImg": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/France.jpg",
     "team": "Racing Bulls",
     "team_colour": "6692FF"
   },
@@ -116,6 +130,7 @@
     "name": "Pierre Gasly",
     "driverImg": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/P/PIEGAS01_Pierre_Gasly/piegas01.png",
     "nat": "FRA",
+    "natImg": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/France.jpg",
     "team": "Alpine",
     "team_colour": "0093CC"
   },
@@ -124,6 +139,7 @@
     "name": "Jack Doohan",
     "driverImg": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/J/JACDOO01_Jack_Doohan/jacdoo01.png",
     "nat": "AUS",
+    "natImg": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Australia.jpg",
     "team": "Alpine",
     "team_colour": "0093CC"
   },
@@ -132,6 +148,7 @@
     "name": "Nico Hulkenberg",
     "driverImg": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/N/NICHUL01_Nico_Hulkenberg/nichul01.png",
     "nat": "GER",
+    "natImg": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Germany.jpg",
     "team": "Kick Sauber",
     "team_colour": "52E252"
   },
@@ -140,6 +157,7 @@
     "name": "Gabriel Bortoleto",
     "driverImg": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/G/GABBOR01_Gabriel_Bortoleto/gabbor01.png",
     "nat": "BRA",
+    "natImg": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Brazil.jpg",
     "team": "Kick Sauber",
     "team_colour": "52E252"
   },
@@ -148,6 +166,7 @@
     "name": "Esteban Ocon",
     "driverImg": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/E/ESTOCO01_Esteban_Ocon/estoco01.png",
     "nat": "FRA",
+    "natImg": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/France.jpg",
     "team": "Haas F1 Team",
     "team_colour": "B6BABD"
   },
@@ -156,6 +175,7 @@
     "name": "Oliver Bearman",
     "driverImg": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/O/OLIBEA01_Oliver_Bearman/olibea01.png",
     "nat": "GBR",
+    "natImg": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/United%20Kingdom.jpg",
     "team": "Haas F1 Team",
     "team_colour": "B6BABD"
   }
