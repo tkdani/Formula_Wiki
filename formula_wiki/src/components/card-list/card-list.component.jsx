@@ -13,20 +13,24 @@ class CardList extends Component {
                 <h2 className="driver-name">{driver.name}</h2>
                 <div className="driver-nat-container">
                   <p className="driver-nat-name">{driver.nat}</p>
-                  <img src={driver.natImg} className="driver-nat-img" />
+                  <img
+                    alt={driver.name}
+                    src={driver.natImg}
+                    className="driver-nat-img"
+                  />
                 </div>
               </div>
 
               <div className="driver-detail-container">
+                <div className="driver-detail">
+                  <p className="team-name">{driver.team}</p>
+                  <p className="driver-number">{driver.number}</p>
+                </div>
                 <img
                   className="driver-pic"
                   alt={driver.name}
                   src={driver.driverImg}
                 />
-                <div className="driver-detail">
-                  <p className="team-name">{driver.team}</p>
-                  <p className="driver-number">{driver.number}</p>
-                </div>
               </div>
             </div>
           );
