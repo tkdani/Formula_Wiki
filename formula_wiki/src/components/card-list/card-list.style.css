@@ -1,14 +1,14 @@
 .card-list {
-  width: 80vh;
+  width: 110vh;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
 }
 .card-container {
-  height: 300px;
-  background-color: rgba(238, 80, 80, 0.65);
-  border: 1px solid white;
+  height: 250px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 3px solid white;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -26,21 +26,43 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
 }
 .driver-detail-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.driver-detail {
+
+.team-name,
+.driver-number {
+  padding: 5px;
+  font-style: italic;
+}
+.team-name {
+  font-size: 0.9em;
+  border-radius: 8px;
+  width: fit-content;
+  position: absolute;
+}
+.driver-number {
+  background-color: rgba(255, 255, 255, 0.3);
+  font-size: 1.5em;
+  font-weight: bold;
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  text-align: left;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
 }
 .driver-pic {
-  width: 180px;
+  width: 23vh;
 }
 .driver-nat-img {
   width: 35px;
+  height: fit-content;
 }
