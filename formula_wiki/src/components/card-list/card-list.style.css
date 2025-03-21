@@ -1,15 +1,14 @@
 .card-list {
-  width: 110vh;
+  width: 80vh;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
 }
 .card-container {
-  height: 250px;
   background-color: rgba(255, 255, 255, 0.6);
-  border: 3px solid white;
-  border-radius: 10px;
+  border: 2px solid white;
+  border-radius: 2px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -60,7 +59,7 @@
   bottom: 0;
 }
 .driver-pic {
-  width: 23vh;
+  width: 30vh;
 }
 .driver-nat-img {
   width: 35px;

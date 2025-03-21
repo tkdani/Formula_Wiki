@@ -1,5 +1,7 @@
 .searchBar {
-  width: 150px;
+  width: 170px;
+  border-radius: 2px;
+
   line-height: 20px;
   margin-bottom: 20px;
   padding: 10px;
