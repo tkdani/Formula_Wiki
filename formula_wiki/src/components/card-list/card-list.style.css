@@ -6,8 +6,8 @@
   grid-gap: 20px;
 }
 .card-container {
-  height: 280px;
-  background-color: rgba(255, 255, 255, 0.5);
+  height: 290px;
+  background-color: rgba(255, 255, 255, 0.6);
   border: 2px solid white;
   border-radius: 2px;
   display: flex;

@@ -1,7 +1,10 @@
 import { Component } from "react";
 import "./App.css";
+
+import PageName from "./components/page-name/page-name.component";
 import SearchBar from "./components/search-bar/search-bar.component";
 import CardList from "./components/card-list/card-list.component";
+
 import driversData from "./drivers.json";
 
 class App extends Component {
@@ -36,6 +39,7 @@ class App extends Component {
 
     return (
       <div>
+        <PageName />
         <SearchBar placeHolder="Search F1 drivers" onChange={onChangeHandler} />
         <CardList drivers={filteredDrivers} />
       </div>
