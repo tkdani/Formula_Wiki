@@ -1,8 +1,8 @@
 .search-bar-container {
   background-color: rgb(255, 255, 255, 0.8);
   width: 80vh;
-  margin: 10px auto;
-  border: 1px solid red;
+  margin: 20px auto;
+  border: 1px solid white;
   border-radius: 2px;
   display: flex;
   justify-content: space-between;
@@ -11,20 +11,29 @@
 .button-container {
   width: 150px;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
 }
 .drivers-btn,
 .teams-btn {
-  border-right: 1px solid red;
+  border-right: 1px solid white;
+  padding: 10px;
+  text-transform: uppercase;
+  line-height: 20px;
 }
 .drivers-btn:hover,
 .teams-btn:hover {
-  background-color: rgb(255, 0, 0, 0.5);
+  background-color: rgb(255, 0, 0, 0.7);
+  color: white;
+}
+.drivers-btn {
+  background-color: rgb(255, 0, 0, 0.7);
+  color: white;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
 }
 .searchBar {
-  border-radius: 2px;
-  width: 150px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  width: 170px;
   line-height: 20px;
   padding: 10px;
   border: none;
