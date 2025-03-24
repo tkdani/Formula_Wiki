@@ -1,7 +1,31 @@
+.search-bar-container {
+  background-color: rgb(255, 255, 255, 0.8);
+  width: 80vh;
+  margin: 10px auto;
+  border: 1px solid red;
+  border-radius: 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button-container {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.drivers-btn,
+.teams-btn {
+  border-right: 1px solid red;
+}
+.drivers-btn:hover,
+.teams-btn:hover {
+  background-color: rgb(255, 0, 0, 0.5);
+}
 .searchBar {
+  border-radius: 2px;
   width: 150px;
   line-height: 20px;
-  margin-bottom: 20px;
   padding: 10px;
   border: none;
   outline: none;

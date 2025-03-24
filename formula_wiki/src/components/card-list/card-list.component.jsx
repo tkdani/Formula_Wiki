@@ -12,7 +12,6 @@ class CardList extends Component {
               <div className="driver-name-container">
                 <h2 className="driver-name">{driver.name}</h2>
                 <div className="driver-nat-container">
-                  <p className="driver-nat-name">{driver.nat}</p>
                   <img
                     alt={driver.name}
                     src={driver.natImg}
