@@ -22,13 +22,9 @@ class App extends Component {
       .then((response) => response.json())
       .then((jsonContent) =>
         this.setState(() => {
-          return { nextGP: jsonContent };
+          return { nextGP: jsonContent, drivers: driversData };
         })
       );
-    console.log(this.statenextGP);
-    this.setState(() => {
-      return { drivers: driversData };
-    });
   }
 
   onChangeHandler = (event) => {
@@ -48,7 +44,7 @@ class App extends Component {
 
     return (
       <div>
-        <NextGp nextGp={nextGP} />
+        <NextGp nextGrandP={nextGP} />
         <PageName />
         <SearchBar placeHolder="Search F1 drivers" onChange={onChangeHandler} />
         <CardList drivers={filteredDrivers} />
