@@ -8,7 +8,7 @@ class CardList extends Component {
       <div className="card-list">
         {drivers.map((driver) => {
           return (
-            <div className="card-container">
+            <div key={driver.number} className="card-container">
               <div className="driver-name-container">
                 <h2 className="driver-name">{driver.name}</h2>
                 <img
