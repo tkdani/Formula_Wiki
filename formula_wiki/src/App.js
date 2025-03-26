@@ -43,11 +43,16 @@ class App extends Component {
     });
 
     return (
-      <div>
+      <div className="main-body">
         <NextGp nextGrandP={nextGP} />
-        <PageName />
-        <SearchBar placeHolder="Search F1 drivers" onChange={onChangeHandler} />
-        <CardList drivers={filteredDrivers} />
+        <div>
+          <PageName />
+          <SearchBar
+            placeHolder="Search F1 drivers"
+            onChange={onChangeHandler}
+          />
+          <CardList drivers={filteredDrivers} />
+        </div>
       </div>
     );
   }
