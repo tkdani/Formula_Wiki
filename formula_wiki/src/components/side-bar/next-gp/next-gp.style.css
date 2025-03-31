@@ -1,24 +1,12 @@
-.Loading-txt {
-  color: white;
-  font-style: italic;
-}
-
-.next-gp-container {
+.session-container {
   background-color: rgb(255, 0, 0, 0.5);
   border: 1px solid black;
   border-radius: 2px;
   width: 35vh;
   height: max-content;
 }
-.next-gp-header {
-  padding: 10px;
-  text-transform: uppercase;
-  font-weight: bold;
-  border-bottom: 1px solid black;
-  color: black;
-}
-.next-gp-name {
-  padding: 10px;
-  font-style: italic;
+
+.Loading-txt {
   color: white;
+  font-style: italic;
 }

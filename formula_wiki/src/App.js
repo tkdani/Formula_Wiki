@@ -14,18 +14,13 @@ class App extends Component {
     this.state = {
       drivers: [],
       searchInput: "",
-      nextGP: [],
     };
   }
 
   componentDidMount() {
-    fetch("https://api.openf1.org/v1/meetings?year=2025&meeting_key=latest")
-      .then((response) => response.json())
-      .then((jsonContent) =>
-        this.setState(() => {
-          return { nextGP: jsonContent, drivers: driversData };
-        })
-      );
+    this.setState(() => {
+      return { drivers: driversData };
+    });
   }
 
   onChangeHandler = (event) => {
@@ -36,7 +31,7 @@ class App extends Component {
   };
 
   render() {
-    const { drivers, searchInput, nextGP } = this.state;
+    const { drivers, searchInput } = this.state;
     const { onChangeHandler } = this;
 
     const filteredDrivers = drivers.filter((driver) => {
@@ -45,7 +40,7 @@ class App extends Component {
 
     return (
       <div className="main-body">
-        <SideBar NextGrandP={nextGP} />
+        <SideBar />
         <div>
           <PageName />
           <div className="main-container">
