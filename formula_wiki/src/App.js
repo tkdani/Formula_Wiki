@@ -4,7 +4,6 @@ import "./App.css";
 import PageName from "./components/page-name/page-name.component";
 import SearchBar from "./components/search-bar/search-bar.component";
 import CardList from "./components/card-list/card-list.component";
-import SideBar from "./components/side-bar/side-bar.component";
 
 import driversData from "./drivers.json";
 
@@ -31,7 +30,7 @@ const App = () => {
 
   return (
     <div className="main-body">
-      <SideBar />
+      <di></di>
       <div>
         <PageName />
         <div className="main-container">
@@ -42,6 +41,7 @@ const App = () => {
           <CardList drivers={filteredDrivers} />
         </div>
       </div>
+      <div></div>
     </div>
   );
 };
