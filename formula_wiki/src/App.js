@@ -1,4 +1,4 @@
-import { Component } from "react";
+import { useState, useEffect } from "react";
 import "./App.css";
 
 import PageName from "./components/page-name/page-name.component";
@@ -8,52 +8,42 @@ import SideBar from "./components/side-bar/side-bar.component";
 
 import driversData from "./drivers.json";
 
-class App extends Component {
-  constructor() {
-    super();
-    this.state = {
-      drivers: [],
-      searchInput: "",
-    };
-  }
+const App = () => {
+  const [drivers, setDrivers] = useState([]);
+  const [searchField, setSearchField] = useState("");
+  const [filteredDrivers, setFilteredDrivers] = useState(drivers);
 
-  componentDidMount() {
-    this.setState(() => {
-      return { drivers: driversData };
+  useEffect(() => {
+    setDrivers(driversData);
+  }, []);
+
+  useEffect(() => {
+    const filteredDriversList = drivers.filter((driver) => {
+      return driver.name.toLocaleLowerCase().includes(searchField);
     });
-  }
+    setFilteredDrivers(filteredDriversList);
+  }, [drivers, searchField]);
 
-  onChangeHandler = (event) => {
+  const onChangeHandler = (event) => {
     const searchInput = event.target.value;
-    this.setState(() => {
-      return { searchInput };
-    });
+    setSearchField(searchInput);
   };
 
-  render() {
-    const { drivers, searchInput } = this.state;
-    const { onChangeHandler } = this;
-
-    const filteredDrivers = drivers.filter((driver) => {
-      return driver.name.toLocaleLowerCase().includes(searchInput);
-    });
-
-    return (
-      <div className="main-body">
-        <SideBar />
-        <div>
-          <PageName />
-          <div className="main-container">
-            <SearchBar
-              placeHolder="Search F1 drivers"
-              onChange={onChangeHandler}
-            />
-            <CardList drivers={filteredDrivers} />
-          </div>
+  return (
+    <div className="main-body">
+      <SideBar />
+      <div>
+        <PageName />
+        <div className="main-container">
+          <SearchBar
+            placeHolder="Search F1 drivers"
+            onChange={onChangeHandler}
+          />
+          <CardList drivers={filteredDrivers} />
         </div>
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
 
 export default App;
