@@ -18,6 +18,7 @@
   padding: 10px;
   text-transform: uppercase;
   line-height: 20px;
+  cursor: pointer;
 }
 .drivers-btn:hover,
 .teams-btn:hover {

@@ -27,13 +27,13 @@
     "team_colour": "3671C6"
   },
   {
-    "number": 30,
-    "name": "Liam Lawson",
-    "driverImg": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LIALAW01_Liam_Lawson/lialaw01.png",
-    "nat": "AUS",
-    "natImg": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Australia.jpg",
+    "number": 22,
+    "name": "Yuki Tsunoda",
+    "driverImg": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/Y/YUKTSU01_Yuki_Tsunoda/yuktsu01.png",
+    "nat": "JPN",
+    "natImg": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Japan.jpg",
     "team": "Red Bull Racing",
-    "team_colour": "3671C6"
+    "team_colour": "6692FF"
   },
   {
     "number": 16,
@@ -108,13 +108,13 @@
     "team_colour": "64C4FF"
   },
   {
-    "number": 22,
-    "name": "Yuki Tsunoda",
-    "driverImg": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/Y/YUKTSU01_Yuki_Tsunoda/yuktsu01.png",
-    "nat": "JPN",
-    "natImg": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/Japan.jpg",
+    "number": 30,
+    "name": "Liam Lawson",
+    "driverImg": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LIALAW01_Liam_Lawson/lialaw01.png",
+    "nat": "AUS",
+    "natImg": "https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/New%20Zealand.jpg",
     "team": "Racing Bulls",
-    "team_colour": "6692FF"
+    "team_colour": "3671C6"
   },
   {
     "number": 6,
