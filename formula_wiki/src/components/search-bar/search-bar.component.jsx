@@ -1,10 +1,14 @@
 import "./search-bar.style.css";
-const SearchBar = ({ placeHolder, onChange }) => {
+const SearchBar = ({ placeHolder, onChange, onDriverClick, onTeamClick }) => {
   return (
     <div className="search-bar-container">
       <div className="button-container">
-        <div className="drivers-btn">Drivers</div>
-        <div className="teams-btn">Teams</div>
+        <button onClick={onDriverClick} className="drivers-btn">
+          Drivers
+        </button>
+        <button onClick={onTeamClick} className="teams-btn">
+          Teams
+        </button>
       </div>
       <input
         className="searchBar"

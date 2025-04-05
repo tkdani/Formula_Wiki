@@ -3,7 +3,8 @@ import "./App.css";
 
 import PageName from "./components/page-name/page-name.component";
 import SearchBar from "./components/search-bar/search-bar.component";
-import CardList from "./components/card-list/driver-card-list/card-list.component";
+import DriverCardList from "./components/card-list/driver-card-list/driver-card-list";
+import TeamsCardList from "./components/card-list/team-card-list/team-card-list.component";
 
 import driversData from "./drivers.json";
 import teamsData from "./teams.json";
@@ -24,17 +25,30 @@ const App = () => {
   }, []);
 
   useEffect(() => {
-    const filteredDriversList = drivers.filter((driver) => {
-      return driver.name.toLocaleLowerCase().includes(searchField);
-    });
-    setFilteredDrivers(filteredDriversList);
-  }, [drivers, searchField]);
+    if (view === "teams") {
+      const filteredTeams = teams.filter((team) => {
+        return team.name.toLocaleLowerCase().includes(searchField);
+      });
+      setFilteredTeams(filteredTeams);
+    } else {
+      const filteredDriversList = drivers.filter((driver) => {
+        return driver.name.toLocaleLowerCase().includes(searchField);
+      });
+      setFilteredDrivers(filteredDriversList);
+    }
+  }, [drivers, teams, searchField, view]);
 
   const onChangeHandler = (event) => {
     const searchInput = event.target.value;
     setSearchField(searchInput);
   };
 
+  const onDriversClick = () => {
+    setView("drivers");
+  };
+  const onTeamsClick = () => {
+    setView("teams");
+  };
   return (
     <div className="main-body">
       <div></div>
@@ -44,8 +58,14 @@ const App = () => {
           <SearchBar
             placeHolder="Search F1 drivers"
             onChange={onChangeHandler}
+            onDriverClick={onDriversClick}
+            onTeamClick={onTeamsClick}
           />
-          <CardList drivers={filteredDrivers} />
+          {view === "drivers" ? (
+            <DriverCardList drivers={filteredDrivers} />
+          ) : (
+            <TeamsCardList teams={teams} />
+          )}
         </div>
       </div>
       <div></div>

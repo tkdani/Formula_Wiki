@@ -1,6 +1,6 @@
 import "./card-list.style.css";
 
-const CardList = ({ drivers }) => {
+const DriverCardList = ({ drivers }) => {
   return (
     <div className="card-list">
       {drivers.map((driver) => {
@@ -33,4 +33,4 @@ const CardList = ({ drivers }) => {
   );
 };
 
-export default CardList;
+export default DriverCardList;
