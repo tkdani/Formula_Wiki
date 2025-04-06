@@ -26,10 +26,10 @@ const App = () => {
 
   useEffect(() => {
     if (view === "teams") {
-      const filteredTeams = teams.filter((team) => {
+      const filteredTeamsList = teams.filter((team) => {
         return team.name.toLocaleLowerCase().includes(searchField);
       });
-      setFilteredTeams(filteredTeams);
+      setFilteredTeams(filteredTeamsList);
     } else {
       const filteredDriversList = drivers.filter((driver) => {
         return driver.name.toLocaleLowerCase().includes(searchField);
@@ -60,11 +60,12 @@ const App = () => {
             onChange={onChangeHandler}
             onDriverClick={onDriversClick}
             onTeamClick={onTeamsClick}
+            onPage={view}
           />
           {view === "drivers" ? (
             <DriverCardList drivers={filteredDrivers} />
           ) : (
-            <TeamsCardList teams={teams} />
+            <TeamsCardList teams={filteredTeams} />
           )}
         </div>
       </div>

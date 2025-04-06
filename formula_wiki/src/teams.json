@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "nev": "McLaren",
+    "name": "McLaren",
     "carImg": "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/mclaren.png",
     "logoImg": "https://media.formula1.com/content/dam/fom-website/teams/2025/mclaren-logo.png",
     "colour": "3671C6",
@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "nev": "Red Bull Racing",
+    "name": "Red Bull Racing",
     "carImg": "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/red-bull-racing.png",
     "logoImg": "https://media.formula1.com/content/dam/fom-website/teams/2025/red-bull-racing-logo.png",
     "colour": "3671C6",
@@ -19,16 +19,16 @@
   },
   {
     "id": 3,
-    "nev": "Ferrari",
+    "name": "Ferrari",
     "carImg": "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/ferrari.png",
-    "logoImg": "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/ferrari.png",
+    "logoImg": "https://media.formula1.com/content/dam/fom-website/teams/2025/ferrari-logo.png",
     "colour": "F91536",
     "boss": "Frederic Vasseur",
     "racers": "Charles Leclerc, Lewis Hamilton"
   },
   {
     "id": 4,
-    "nev": "Mercedes",
+    "name": "Mercedes",
     "carImg": "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/mercedes.png",
     "logoImg": "https://media.formula1.com/content/dam/fom-website/teams/2025/mercedes-logo.png",
     "colour": "27F4D2",
@@ -37,7 +37,7 @@
   },
   {
     "id": 5,
-    "nev": "Aston Martin",
+    "name": "Aston Martin",
     "carImg": "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/aston-martin.png",
     "logoImg": "https://media.formula1.com/content/dam/fom-website/teams/2025/aston-martin-logo.png",
     "colour": 229971,
@@ -46,7 +46,7 @@
   },
   {
     "id": 6,
-    "nev": "Williams",
+    "name": "Williams",
     "carImg": "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/williams.png",
     "logoImg": "https://media.formula1.com/content/dam/fom-website/teams/2025/williams-logo.png",
     "colour": "64C4FF",
@@ -55,7 +55,7 @@
   },
   {
     "id": 7,
-    "nev": "Racing Bulls",
+    "name": "Racing Bulls",
     "carImg": "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/racing-bulls.png",
     "logoImg": "https://media.formula1.com/content/dam/fom-website/teams/2025/racing-bulls-logo.png",
     "colour": "3671C6",
@@ -64,7 +64,7 @@
   },
   {
     "id": 8,
-    "nev": "Alpine",
+    "name": "Alpine",
     "carImg": "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/alpine.png",
     "logoImg": "https://media.formula1.com/content/dam/fom-website/teams/2025/alpine-logo.png",
     "colour": "0093CC",
@@ -73,7 +73,7 @@
   },
   {
     "id": 9,
-    "nev": "Kick Sauber",
+    "name": "Kick Sauber",
     "carImg": "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/kick-sauber.png",
     "logoImg": "https://media.formula1.com/content/dam/fom-website/teams/2025/kick-sauber-logo.png",
     "colour": 5.2e253,
@@ -82,7 +82,7 @@
   },
   {
     "id": 10,
-    "nev": "Haas F1 Team",
+    "name": "Haas F1 Team",
     "carImg": "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/haas.png",
     "logoImg": "https://media.formula1.com/content/dam/fom-website/teams/2025/haas-logo.png",
     "colour": "B6BABD",

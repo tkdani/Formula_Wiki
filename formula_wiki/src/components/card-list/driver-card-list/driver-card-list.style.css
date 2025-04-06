@@ -1,0 +1,62 @@
+.card-list-drivers {
+  width: 80vh;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+.card-container-drivers {
+  height: 290px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 2px solid white;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 10px;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+.card-container-drivers:hover {
+  transform: scale(1.05);
+}
+.driver-name-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+.driver-detail-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.team-name-driver {
+  position: absolute;
+  font-style: italic;
+  font-size: 0.9em;
+}
+.driver-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  font-style: italic;
+  font-weight: bold;
+  background-color: rgb(255, 255, 255, 0.3);
+  border-radius: 30px;
+  padding: 5px;
+  font-size: 1.5em;
+  bottom: 0;
+}
+.driver-pic {
+  width: 220px;
+}
+.driver-nat-img {
+  width: 35px;
+}
