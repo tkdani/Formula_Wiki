@@ -3,8 +3,9 @@ import "./App.css";
 
 import PageName from "./components/page-name/page-name.component";
 import SearchBar from "./components/search-bar/search-bar.component";
-import DriverCardList from "./components/card-list/driver-card-list/driver-card-list";
+import DriverCardList from "./components/card-list/driver-card-list/driver-card-list.component";
 import TeamsCardList from "./components/card-list/team-card-list/team-card-list.component";
+import CurrentGp from "./components/side-bar/left-side-bar/current-gp-info.component";
 
 import driversData from "./drivers.json";
 import teamsData from "./teams.json";
@@ -69,7 +70,9 @@ const App = () => {
           )}
         </div>
       </div>
-      <div></div>
+      <div>
+        <CurrentGp />
+      </div>
     </div>
   );
 };
