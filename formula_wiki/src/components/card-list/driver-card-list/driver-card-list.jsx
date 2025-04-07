@@ -1,11 +1,11 @@
-import "./card-list.style.css";
+import "./driver-card-list.style.css";
 
-const CardList = ({ drivers }) => {
+const DriverCardList = ({ drivers }) => {
   return (
-    <div className="card-list">
+    <div className="card-list-drivers">
       {drivers.map((driver) => {
         return (
-          <div key={driver.number} className="card-container">
+          <div key={driver.number} className="card-container-drivers">
             <div className="driver-name-container">
               <h2 className="driver-name">{driver.name}</h2>
               <img
@@ -17,7 +17,7 @@ const CardList = ({ drivers }) => {
 
             <div className="driver-detail-container">
               <div className="driver-detail">
-                <p className="team-name">{driver.team}</p>
+                <p className="team-name-driver">{driver.team}</p>
                 <p className="driver-number">{driver.number}</p>
               </div>
               <img
@@ -33,4 +33,4 @@ const CardList = ({ drivers }) => {
   );
 };
 
-export default CardList;
+export default DriverCardList;

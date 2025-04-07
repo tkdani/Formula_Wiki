@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "McLaren",
+    "carImg": "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/mclaren.png",
+    "logoImg": "https://media.formula1.com/content/dam/fom-website/teams/2025/mclaren-logo.png",
+    "colour": "3671C6",
+    "boss": "Andrea Stella",
+    "racers": "Lando Norris, Oscar Piastri"
+  },
+  {
+    "id": 2,
+    "name": "Red Bull Racing",
+    "carImg": "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/red-bull-racing.png",
+    "logoImg": "https://media.formula1.com/content/dam/fom-website/teams/2025/red-bull-racing-logo.png",
+    "colour": "3671C6",
+    "boss": "Christian Horner",
+    "racers": "Max Verstappen, Yuki Tsunoda"
+  },
+  {
+    "id": 3,
+    "name": "Ferrari",
+    "carImg": "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/ferrari.png",
+    "logoImg": "https://media.formula1.com/content/dam/fom-website/teams/2025/ferrari-logo.png",
+    "colour": "F91536",
+    "boss": "Frederic Vasseur",
+    "racers": "Charles Leclerc, Lewis Hamilton"
+  },
+  {
+    "id": 4,
+    "name": "Mercedes",
+    "carImg": "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/mercedes.png",
+    "logoImg": "https://media.formula1.com/content/dam/fom-website/teams/2025/mercedes-logo.png",
+    "colour": "27F4D2",
+    "boss": "Toto Wolff",
+    "racers": "George Russel, Kimi Antonelli"
+  },
+  {
+    "id": 5,
+    "name": "Aston Martin",
+    "carImg": "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/aston-martin.png",
+    "logoImg": "https://media.formula1.com/content/dam/fom-website/teams/2025/aston-martin-logo.png",
+    "colour": 229971,
+    "boss": "Andy Cowell",
+    "racers": "Fernando Alonso, Lance Stroll"
+  },
+  {
+    "id": 6,
+    "name": "Williams",
+    "carImg": "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/williams.png",
+    "logoImg": "https://media.formula1.com/content/dam/fom-website/teams/2025/williams-logo.png",
+    "colour": "64C4FF",
+    "boss": "James Vowles",
+    "racers": "Carlos Sainz, Alex Albon"
+  },
+  {
+    "id": 7,
+    "name": "Racing Bulls",
+    "carImg": "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/racing-bulls.png",
+    "logoImg": "https://media.formula1.com/content/dam/fom-website/teams/2025/racing-bulls-logo.png",
+    "colour": "3671C6",
+    "boss": "Laurent Mekies",
+    "racers": "Liam Lawson, Isack Hadjar"
+  },
+  {
+    "id": 8,
+    "name": "Alpine",
+    "carImg": "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/alpine.png",
+    "logoImg": "https://media.formula1.com/content/dam/fom-website/teams/2025/alpine-logo.png",
+    "colour": "0093CC",
+    "boss": "Oliver Oakes",
+    "racers": "Pierre Gasly, Jack Doohan"
+  },
+  {
+    "id": 9,
+    "name": "Kick Sauber",
+    "carImg": "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/kick-sauber.png",
+    "logoImg": "https://media.formula1.com/content/dam/fom-website/teams/2025/kick-sauber-logo.png",
+    "colour": 5.2e253,
+    "boss": "Jonathan Wheatley",
+    "racers": "Nico Hulkenberg, Gabriel Bortoleto"
+  },
+  {
+    "id": 10,
+    "name": "Haas F1 Team",
+    "carImg": "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/haas.png",
+    "logoImg": "https://media.formula1.com/content/dam/fom-website/teams/2025/haas-logo.png",
+    "colour": "B6BABD",
+    "boss": "Ayao Komatsu",
+    "racers": "Esteban Ocon, Oliver Bearman"
+  }
+]
