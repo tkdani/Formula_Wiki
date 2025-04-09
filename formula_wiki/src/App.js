@@ -5,7 +5,7 @@ import PageName from "./components/page-name/page-name.component";
 import SearchBar from "./components/search-bar/search-bar.component";
 import DriverCardList from "./components/card-list/driver-card-list/driver-card-list.component";
 import TeamsCardList from "./components/card-list/team-card-list/team-card-list.component";
-import CurrentGp from "./components/side-bar/left-side-bar/current-gp-info.component";
+import CurrentGp from "./components/side-bar/right-side-bar/current-gp-info.component";
 
 import driversData from "./drivers.json";
 import teamsData from "./teams.json";
@@ -51,27 +51,29 @@ const App = () => {
     setView("teams");
   };
   return (
-    <div className="main-body">
-      <div></div>
-      <div>
-        <PageName />
-        <div className="main-container">
-          <SearchBar
-            placeHolder="Search F1 drivers"
-            onChange={onChangeHandler}
-            onDriverClick={onDriversClick}
-            onTeamClick={onTeamsClick}
-            onPage={view}
-          />
-          {view === "drivers" ? (
-            <DriverCardList drivers={filteredDrivers} />
-          ) : (
-            <TeamsCardList teams={filteredTeams} />
-          )}
+    <div>
+      <PageName />
+      <div className="main-body">
+        <div></div>
+        <div>
+          <div className="main-container">
+            <SearchBar
+              placeHolder="Search F1 drivers"
+              onChange={onChangeHandler}
+              onDriverClick={onDriversClick}
+              onTeamClick={onTeamsClick}
+              onPage={view}
+            />
+            {view === "drivers" ? (
+              <DriverCardList drivers={filteredDrivers} />
+            ) : (
+              <TeamsCardList teams={filteredTeams} />
+            )}
+          </div>
         </div>
-      </div>
-      <div>
-        <CurrentGp />
+        <div>
+          <CurrentGp />
+        </div>
       </div>
     </div>
   );
