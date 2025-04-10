@@ -1,0 +1,31 @@
+.side-bar-container {
+  right: 10px;
+  position: fixed;
+  width: 30vh;
+}
+.gp-container {
+  background-color: rgba(255, 0, 0, 0.4);
+  border: 2px solid white;
+  border-radius: 2px;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.current-session {
+  padding: 2px;
+}
+.current-header {
+  border-bottom: 1px solid white;
+  font-weight: bold;
+  padding: 2px;
+  margin-bottom: 5px;
+}
+.current-detail-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  padding: 5px;
+}

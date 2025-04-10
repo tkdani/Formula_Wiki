@@ -1,7 +1,7 @@
 .search-bar-container {
   background-color: rgb(255, 255, 255, 0.8);
   width: 80vh;
-  margin: 20px auto;
+  margin: 0 auto 20px auto;
   border: 1px solid white;
   border-radius: 2px;
   display: flex;

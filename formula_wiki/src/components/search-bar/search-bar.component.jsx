@@ -6,7 +6,6 @@ const SearchBar = ({
   onTeamClick,
   onPage,
 }) => {
-  console.log(onPage);
   return (
     <div className="search-bar-container">
       <div className="button-container">
