@@ -51,29 +51,27 @@ const App = () => {
     setView("teams");
   };
   return (
-    <div>
-      <PageName />
-      <div className="main-body">
-        <div></div>
-        <div>
-          <div className="main-container">
-            <SearchBar
-              placeHolder="Search F1 drivers"
-              onChange={onChangeHandler}
-              onDriverClick={onDriversClick}
-              onTeamClick={onTeamsClick}
-              onPage={view}
-            />
-            {view === "drivers" ? (
-              <DriverCardList drivers={filteredDrivers} />
-            ) : (
-              <TeamsCardList teams={filteredTeams} />
-            )}
-          </div>
+    <div className="main-body">
+      <div></div>
+      <div>
+        <div className="main-container">
+          <PageName />
+          <SearchBar
+            placeHolder="Search F1 drivers"
+            onChange={onChangeHandler}
+            onDriverClick={onDriversClick}
+            onTeamClick={onTeamsClick}
+            onPage={view}
+          />
+          {view === "drivers" ? (
+            <DriverCardList drivers={filteredDrivers} />
+          ) : (
+            <TeamsCardList teams={filteredTeams} />
+          )}
         </div>
-        <div>
-          <CurrentGp />
-        </div>
+      </div>
+      <div>
+        <CurrentGp />
       </div>
     </div>
   );
